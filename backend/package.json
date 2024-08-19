@@ -1,0 +1,23 @@
+{
+  "name": "casino-roulette-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "devstart": "ts-node -r tsconfig-paths/register src/server.ts",
+    "start": "NODE_PATH=build/ node ./build/server.js",
+    "build": "tsc --build --pretty"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "easytimer.js": "^4.6.0",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.7.5"
+  }
+}
